@@ -1,0 +1,697 @@
+{
+  "name": "8-Week Hybrid Cycle",
+  "phases": [
+    {
+      "name": "Base",
+      "weeks": [
+        1,
+        1
+      ],
+      "goal": "Build aerobic base, establish lifting technique",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 70
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 70
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "interval_vo2max",
+            "reps": 6,
+            "distance": {
+              "unit": "m",
+              "value": 400
+            }
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 70
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 70
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 90
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Build",
+      "weeks": [
+        2,
+        2
+      ],
+      "goal": "Increase mileage + progressive overload",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 10,
+            "intensity_pct": 74
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 10,
+            "intensity_pct": 74
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "interval_vo2max",
+            "reps": 5,
+            "distance": {
+              "unit": "m",
+              "value": 600
+            },
+            "pace": "5K"
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 10,
+            "intensity_pct": 74
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 10,
+            "intensity_pct": 74
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 120
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Strength + Volume",
+      "weeks": [
+        3,
+        3
+      ],
+      "goal": "Heavier lifting + maintain aerobic base",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 8,
+            "intensity_pct": 79
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 8,
+            "intensity_pct": 79
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "interval_vo2max",
+            "reps": 4,
+            "distance": {
+              "unit": "m",
+              "value": 800
+            },
+            "pace": "faster than 10K"
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 8,
+            "intensity_pct": 79
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 8,
+            "intensity_pct": 79
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 135
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Performance",
+      "weeks": [
+        4,
+        4
+      ],
+      "goal": "Improve threshold + efficiency",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 6,
+            "intensity_pct": 83
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 6,
+            "intensity_pct": 83
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "threshold_tempo",
+            "duration": {
+              "unit": "min",
+              "value": 25
+            }
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 6,
+            "intensity_pct": 83
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 6,
+            "intensity_pct": 83
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 150
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Peak Development",
+      "weeks": [
+        5,
+        5
+      ],
+      "goal": "Highest workload",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 5,
+            "intensity_pct": 91
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 5,
+            "intensity_pct": 91
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "interval_vo2max",
+            "reps": 5,
+            "distance": {
+              "unit": "m",
+              "value": 800
+            },
+            "pace": "hard"
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 5,
+            "intensity_pct": 91
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 5,
+            "intensity_pct": 91
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 180
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Peak + Specificity",
+      "weeks": [
+        6,
+        6
+      ],
+      "goal": "Maintain intensity, reduce fatigue",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 4,
+            "intensity_pct": 96
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 4,
+            "intensity_pct": 96
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "threshold_tempo",
+            "note": "steady",
+            "duration": {
+              "unit": "min",
+              "value": 25
+            }
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 4,
+            "intensity_pct": 96
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 4,
+            "intensity_pct": 96
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 150
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Test Week",
+      "weeks": [
+        7,
+        7
+      ],
+      "goal": "Balke + 1RM tests, then restart with updated numbers",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 2,
+            "intensity_pct": 100
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 2,
+            "intensity_pct": 100
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "balke"
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 2,
+            "intensity_pct": 100
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 2,
+            "intensity_pct": 100
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 120
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Deload + Maintenance",
+      "weeks": [
+        8,
+        8
+      ],
+      "goal": "Recover, retain adaptations",
+      "days": {
+        "monday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "pull",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 60
+          }
+        },
+        "tuesday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "legs",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 60
+          }
+        },
+        "wednesday": {
+          "run": null,
+          "strength": null
+        },
+        "thursday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          },
+          "strength": {
+            "workout": "push",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 60
+          }
+        },
+        "friday": {
+          "run": {
+            "type": "easy",
+            "duration": {
+              "unit": "min",
+              "value": 60
+            }
+          }
+        },
+        "saturday": {
+          "run": null,
+          "strength": {
+            "workout": "shoulders",
+            "sets": 3,
+            "reps": 12,
+            "intensity_pct": 60
+          }
+        },
+        "sunday": {
+          "run": {
+            "type": "long",
+            "duration": {
+              "unit": "min",
+              "value": 120
+            }
+          }
+        }
+      }
+    }
+  ]
+}

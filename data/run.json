@@ -1,0 +1,21 @@
+{
+    "easy": {
+        "label": "Easy",
+        "min": "8:18",
+        "max": "6:51"
+    },
+    "threshold_tempo": {
+        "label": "Threshold/Tempo",
+        "min": "6:38",
+        "max": "6:18"
+    },
+    "interval_vo2max": {
+        "label": "Interval/VO₂ Max",
+        "min": "5:28",
+        "max": "5:14"
+    },
+    "balke": {
+        "label": "Balke",
+        "max": "5:45"
+    }
+}

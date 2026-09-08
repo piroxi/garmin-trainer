@@ -1,0 +1,29 @@
+Table lists:
+
+1. runs
+id uid
+label varchar/string
+pace_min int -> in seconds, will be converted to min:second on fetch
+pace_max int -> in seconds, will be converted to min:second on fetch
+pace_distance_unit -> enum "KM or MILES
+
+2. strengths
+id uid
+label varchar/string
+garmin_id string
+garmin_category string
+orm numeric
+
+3. plans
+id uid
+name string
+
+4. phases
+id uid
+workout id
+week_start int
+week_end int
+
+5. exercises
+
+
