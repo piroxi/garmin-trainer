@@ -5,7 +5,7 @@
             { "id": "Tuck Front Lever", "hold": true },
             { "id": "Weighted Pull-ups", "1rm": 10 },
             { "id": "Landmine Rows", "1rm": 67 },
-            { "id": "Feet-Elevated Inverted Rows" },
+            { "id": "Feet-Elevated Inverted Rows", "cali": true, "note": "ice cream maker/lever row progression" },
             { "id": "Bicep Curls", "1rm": 16.5 }
         ]
     },
@@ -15,7 +15,7 @@
             { "id": "Tuck Planche", "hold": true },
             { "id": "Incline Dumbbell Bench Press", "1rm": 37 },
             { "id": "Parallel Bar Dips", "1rm": 10 },
-            { "id": "Pseudo-Planche Push-ups" },
+            { "id": "Pseudo-Planche Push-ups", "cali": true },
             { "id": "Tricep Pushdowns", "1rm": 15.6 }
         ]
     },
@@ -23,16 +23,16 @@
         "label": "Legs + Core",
         "exercises": [
             { "id": "Romanian Deadlift", "1rm": 120 },
-            { "id": "Front Squat", "1rm": 40 },
-            { "id": "Dumbbell Bulgarian Split Squat", "1rm": 70 },
-            { "id": "Standing Calf Raise", "1rm": 140 },
-            { "id": "Hanging Leg Raise", "1rm": 10 }
+            { "id": "Lying Straight-leg Raise", "cali": true, "note": "dragon flag" },
+            { "id": "Dumbbell Bulgarian Split Squat", "1rm": 37.5 },
+            { "id": "Single-leg Standing Calf Raise", "1rm": 47.5 },
+            { "id": "Hanging Leg Raise", "1rm": 7.5 }
         ]
     },
     "shoulders": {
         "label": "Shoulders & Straight-Arm Strength",
         "exercises": [
-            { "id": "HSPU Progression" },
+            { "id": "HSPU Progression", "cali": true },
             { "id": "Straight-Arm Lat Pulldown", "1rm": 40 },
             { "id": "Overhead Dumbbell Press", "1rm": 25.5 },
             { "id": "DB Lateral Raise", "1rm": 12.7 },

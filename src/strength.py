@@ -21,9 +21,9 @@ _EXERCISE_KEYS = {
     "Pseudo-Planche Push-ups":       ("PIKE_PUSH_UP",                    "PUSH_UP"),
     "Tricep Pushdowns":              ("TRICEPS_PRESSDOWN",               "TRICEPS_EXTENSION"),
     "Romanian Deadlift":             ("ROMANIAN_DEADLIFT",               "DEADLIFT"),
-    "Front Squat":                   ("BARBELL_FRONT_SQUAT",             "SQUAT"),
+    "Lying Straight-leg Raise":      ("LYING_STRAIGHT_LEG_RAISE",        "LEG_RAISE"),
     "Dumbbell Bulgarian Split Squat": ("DUMBBELL_BULGARIAN_SPLIT_SQUAT", "LUNGE"),
-    "Standing Calf Raise":           ("STANDING_CALF_RAISE",             "CALF_RAISE"),
+    "Single-leg Standing Calf Raise": ("SINGLE_LEG_STANDING_CALF_RAISE", "CALF_RAISE"),
     "Hanging Leg Raise":             ("HANGING_LEG_RAISE",               "LEG_RAISE"),
     "HSPU Progression":              ("HANDSTAND_PUSH_UP",               "PUSH_UP"),
     "Straight-Arm Lat Pulldown":     ("STRAIGHT_ARM_PULLDOWN",           "PULL_UP"),
@@ -39,7 +39,7 @@ HOLD_SECS_PER_REP = 5  # ponytail: hold time = weekly reps × this; tune if hold
 def _build_step(ex, reps, pct, omit_weight):
     name = ex["id"]
     w = None
-    if not omit_weight and ex.get("1rm") and pct:
+    if not omit_weight and not ex.get("cali") and ex.get("1rm") and pct:
         w = round(ex["1rm"] * pct / 100)
     ek = _EXERCISE_KEYS.get(name, (name.upper().replace(" ", "_").replace("-", "_"), ""))
     st = {
@@ -103,13 +103,14 @@ def build_strength(strength, workouts, omit_weight=False):
     total_secs = sets * len(wk["exercises"]) * (reps * 4 + 120)
     desc_lines = []
     for ex in wk["exercises"]:
+        note = f" ({ex['note']})" if ex.get("note") else ""
         if ex.get("hold"):
-            desc_lines.append(f"{ex['id']}: {sets}x{reps * HOLD_SECS_PER_REP}s")
+            desc_lines.append(f"{ex['id']}: {sets}x{reps * HOLD_SECS_PER_REP}s{note}")
             continue
         w = ""
-        if not omit_weight and ex.get("1rm") and pct:
+        if not omit_weight and not ex.get("cali") and ex.get("1rm") and pct:
             w = f" @ {ex['1rm'] * pct / 100:.0f} kg"
-        desc_lines.append(f"{ex['id']}: {sets}x{reps}{w}")
+        desc_lines.append(f"{ex['id']}: {sets}x{reps}{w}{note}")
     if strength.get("note"):
         desc_lines.append(strength["note"])
 
