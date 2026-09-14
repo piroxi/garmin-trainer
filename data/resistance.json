@@ -3,10 +3,10 @@
         "label": "Pull + Front Lever",
         "exercises": [
             { "id": "Tuck Front Lever", "hold": true },
-            { "id": "Weighted Pull-ups", "1rm": 10 },
-            { "id": "Landmine Rows", "1rm": 67 },
+            { "id": "Weighted Pull-ups", "1rm": 5 },
+            { "id": "Landmine Rows", "1rm": 65 },
             { "id": "Feet-Elevated Inverted Rows", "cali": true, "note": "ice cream maker/lever row progression" },
-            { "id": "Bicep Curls", "1rm": 16.5 }
+            { "id": "Bicep Curls", "1rm": 17.5 }
         ]
     },
     "push": {
